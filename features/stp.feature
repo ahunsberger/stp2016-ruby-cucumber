@@ -1,7 +1,9 @@
 @stp
-Feature: stpfeature
+Feature: Order Online
 
-Scenario: stpscenario1
-  Given contextstp
-  When actionstp
-  Then outcomestp
+Insert a brief description
+
+Scenario: Delivery Address
+  Given I have entered a valid address
+  When I continue to delivery
+  Then all entrees available for order
